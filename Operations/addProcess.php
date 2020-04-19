@@ -43,7 +43,7 @@ if (!checkName($state)) {
 }
 
 if ($continue) {
-    $userID = $_SESSION['id'];
+    $userID = $_SESSION['hostid'];
     $userName = $_SESSION['name'];
 
     $query = "insert into listing 
